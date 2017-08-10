@@ -1,0 +1,36 @@
+{
+  "name": "assignmenttest",
+  "version": "0.0.1",
+  "description": "tests a past homework assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsarah/testing-practice"
+  },
+  "keywords": [
+    "npm",
+    "testing",
+    "click-test"
+  ],
+  "author": "Sarah Frank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fsarah/testing-practice/issues"
+  },
+  "homepage": "https://github.com/fsarah/testing-practice#readme",
+  "dependencies": {
+    "webdriverio": "^4.8.0",
+    "mocha": "^3.5.0",
+    "chai": "^4.1.1",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-spec-reporter": "^0.1.0"
+  }
+}
